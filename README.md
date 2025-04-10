@@ -9,6 +9,10 @@ Thought Process:- As i am using a IR sensor, so it will detect the object that p
 
 So the concept is as any object is detected through the sensor its turn low, and the variable for tracking the object change ( state) ( initialy it is = true ) both are 1 then the object is counted and state is changed to false. now it will not turn the state value to true till the ir sensor value is high. If the ir sensor value is high then it enters int the if loop and changes state to true. the process goes on and the count value increses with it 
 
+Connections and pins:-
+I2c pins- vcc to 5v of arduino, gnd to GND of arduino, SDA to A4 arduino and SCL to A5.
+ir pins  - vcc to 5v , GND to GND of arduino, and out pin to digital pin 2 of arduino.
+
 There was one error coming while interfacing the code for lcd display with i2c 
 errors:-
 'lcd' was not declared in this scope lcd.init();  
