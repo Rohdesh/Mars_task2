@@ -9,7 +9,7 @@ so the concept is as any object is detected through the sensor its turn low, and
 
 There was one error coming while interfacing the code for lcd display with i2c 
 errors:-
-'lcd' was not declared in this scope lcd.init(); what is this error 
+'lcd' was not declared in this scope lcd.init();  
 it was because i was using wrong initialisation ((LiquidCrystal_I2C.h lcd(0x27,16,2)) but the correct one is (LiquidCrystal_I2C lcd(0x27,  16, 2))
 
 References :-
