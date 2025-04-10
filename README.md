@@ -1,5 +1,6 @@
 # Mars_task2
 recruitment task2
+
 Aim:-Make an object counter, which usesan IR sensor to count the number ofpassing objects and displays thecount on an LCD screen.
 
 Components used:- Lcd display , i2c , ir sensor module, arduino uno board , jumper wires
