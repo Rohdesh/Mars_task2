@@ -14,6 +14,7 @@ it was because i was using wrong initialisation ((LiquidCrystal_I2C.h lcd(0x27,1
 
 References :-
 https://projecthub.arduino.cc/arduino_uno_guy/i2c-liquid-crystal-displays-5eb615
+
 https://techatronic.com/object-counter-using-ir-sensor-and-arduino/ 
 
 
